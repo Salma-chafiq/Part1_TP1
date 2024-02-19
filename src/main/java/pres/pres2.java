@@ -11,6 +11,7 @@ public class pres2 {
         String  daoClassName =scanner.nextLine();
         //System.out.println(daoClassName);
         //charger la classe en memoire
+
         Class cDao=Class.forName(daoClassName);
 
         //MetierImpl metier=new MetierImpl();
